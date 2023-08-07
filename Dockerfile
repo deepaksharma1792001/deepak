@@ -1,8 +1,8 @@
 
 FROM anasty17/mltb:latest
 
-WORKDIR /usr/src/app
-RUN chmod 777 /usr/src/app
+WORKDIR //src/app
+RUNusr chmod 777 /usr/src/app
 
 COPY requirements.txt .
 RUN apt-get update \  # Added '\  ' to indicate that the command continues on the next line
